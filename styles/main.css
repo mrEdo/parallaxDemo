@@ -1,15 +1,28 @@
 /*My Styles*/
 
+#stageWrap {
+	width: 1000px;
+	margin: 0px auto;
+}
 #stage {
 	background-color: #29abe2;
 	width: 1000px;
 	height: 500px;
-	margin: 0px auto;
+	/*margin: 0px auto;*/
+	position: absolute;left:0px;
+	overflow: hidden;
+}
+#text {
 	position: absolute;
+	top: 50px;
+	width: 400px;
+	height: 200px;
+	background: url("../images/imgs_id290.svg") no-repeat;
 }
 #backclouds {
 	position: absolute;
 	top: 0px;
+	left: 400px;
 	width: 1300px;
 	height: 250px;
 	background: url("../images/imgs_backclouds.svg") no-repeat;
