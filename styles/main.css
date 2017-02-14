@@ -1,15 +1,19 @@
 /*My Styles*/
-
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
 #stageWrap {
 	width: 1000px;
 	margin: 0px auto;
+	height: 500px;
 }
 #stage {
 	background-color: #29abe2;
 	width: 1000px;
 	height: 500px;
 	/*margin: 0px auto;*/
-	position: absolute;left:0px;
+	position: absolute;
 	overflow: hidden;
 }
 #text {
@@ -43,3 +47,113 @@
 	height: 600px;
 	background: url("../images/imgs_frontclouds.svg") no-repeat;
 }
+
+.picRow {
+	height: 300px;
+	width: 1500px;
+	/*background-color: gray;*/
+	text-align: center;
+	position: absolute;
+
+}
+.pics {
+	height: 300px;
+	width: 200px;
+	background-color: blue;
+	display: inline-block;
+	margin: 0px 15px;
+}
+#scrollSpacer {
+	height: 2500px;
+	width: 1px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#row1 {
+	right: -1500px;
+}
+#row2 {
+	top: 1000px;
+	left: -1500px;
+}
+
+#character {
+	width: 206px;
+	height: 278px;
+	background-image: url(../images/characterSpritesheet.png);
+	background-position: 412px 0px;
+	position: fixed;
+	top: 200px;
+	left: 0px;
+}
+#characterLand {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 1000px;
+	height: 500px;
+	background-color: skyblue;
+	overflow: hidden;
+}
+#ground {
+	width: 3000px;
+	height: 70px;
+	background: url("../images/imgs_backclouds.svg");
+	background-color: brown;
+	position: fixed;
+	top: 460px;
+}
+#sun {
+	height: 70px;
+	width: 70px;
+	background-color: white;
+	border-radius: 50%;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+}
+#clouds {
+	position: fixed;
+	top: 100px;
+	left: -30px;
+	width: 1300px;
+	height: 250px;
+	background: url("../images/imgs_backclouds.svg") no-repeat;
+}
+#mountains {
+	width: 4000px;
+	height: 400px;
+	position: fixed;
+	top: 200px;
+	/*background-color: red;*/
+}
+.mtns {
+	width: 400px;
+	height: 400px;
+	background-color: purple;
+	transform: rotate(45deg);
+	display: inline-block;
+	transform-origin: 50% 50%;
+	background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
